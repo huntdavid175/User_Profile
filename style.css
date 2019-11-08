@@ -105,6 +105,10 @@ button {
         padding: 13px;
     }
 
+    .social p {
+        font-size: 13px;
+    }
+
     button {
         width: 38%;
     }
