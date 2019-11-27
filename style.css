@@ -8,6 +8,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 .user_profile_container {
@@ -76,13 +77,30 @@ body {
     padding: 10px;
 }
 
-button {
+form {
     width: 55%;
     align-self: center;
     padding-top: 30px;
     padding-bottom: 20px;
     margin-top: -15px;
     z-index: 1;
+    background-color: #d74848;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    letter-spacing: 3px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+}
+
+button {
+    width: 100%;
+    /* align-self: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-top: -15px;
+    z-index: 1; */
     background-color: #d74848;
     color: #fff;
     border: none;
